@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri:
-          searchPath: config-data
+          uri: https://github.com/MoisesArevalo/MicroserviciosSpringBoot.git
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
